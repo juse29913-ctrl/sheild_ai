@@ -1,0 +1,11 @@
+# HeatShield AI — Kochi Urban Heat Intelligence
+# Direct dependencies, pinned to the versions in the project's .venv
+# (Python 3.13). Install with: pip install -r requirements.txt
+
+joblib==1.6.0
+numpy==2.5.3
+pandas==3.0.6
+plotly==7.1.0
+scikit-learn==1.6.1
+streamlit==1.64.0
+tifffile==2026.9.20

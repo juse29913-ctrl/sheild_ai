@@ -1,0 +1,16 @@
+{
+    "features": [
+        "NDVI",
+        "NDBI",
+        "NDWI"
+    ],
+    "target": "LST",
+    "model": "Random Forest Regressor",
+    "n_estimators": 200,
+    "max_depth": 15,
+    "training_samples": 7997,
+    "test_samples": 2000,
+    "r2": 0.8156,
+    "rmse": 1.5715,
+    "mae": 1.1289
+}

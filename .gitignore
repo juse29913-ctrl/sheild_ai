@@ -1,0 +1,67 @@
+# HeatShield AI — Kochi Urban Heat Intelligence
+
+# ------------------------------------------------------------
+# Virtual environments
+# ------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# ------------------------------------------------------------
+# Python bytecode / caches
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ------------------------------------------------------------
+# Large model / raster artifacts
+#
+# These are required at runtime but are too large to track in
+# version control. They must be present alongside app.py to run
+# the application:
+#   - kochi_heat_model.pkl         (~30 MB, pre-trained model)
+#   - Kochi_HeatShield_Raster.tif  (~12.8 MB, 4-band GeoTIFF)
+# ------------------------------------------------------------
+kochi_heat_model.pkl
+Kochi_HeatShield_Raster.tif
+*.pkl
+*.tif
+*.tiff
+
+# ------------------------------------------------------------
+# Streamlit
+# ------------------------------------------------------------
+.streamlit/secrets.toml
+
+# ------------------------------------------------------------
+# Testing / coverage / linting
+# ------------------------------------------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ------------------------------------------------------------
+# Build artifacts
+# ------------------------------------------------------------
+build/
+dist/
+*.egg-info/
+
+# ------------------------------------------------------------
+# Editors and IDEs
+# ------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+
+# ------------------------------------------------------------
+# OS files
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
